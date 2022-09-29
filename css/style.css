@@ -1,0 +1,142 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.woff");
+  src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/RobotoBold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.woff");
+  src: local("Roboto"), local("Roboto-Regular"), url("../fonts/RobotoRegular.woff2") format("woff2"), url("../fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* @font-face {
+  font-family: "Roboto";
+  src: url("../fonts/RobotoThin.woff");
+  src: local("Roboto"), local("Roboto-Thin"), url("../fonts/RobotoThin.woff2") format("woff2"), url("../fonts/RobotoThin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+} */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  color: #787878;
+  background-color: #1B2473;
+}
+
+.main {
+  padding-top: 82px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 26px 45px 30px 45px;
+  max-width: 600px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 10px rgba(0, 0, 0, 0.25);
+}
+
+.main-title {
+  margin-bottom: 17px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.email,
+.password,
+.argeement {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.title {
+  margin-bottom: 3px;
+  padding-left: 8px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.required {
+  position: absolute;
+  left: -11px;
+  font-size: 18px;
+}
+
+.input {
+  border: 2px solid #787878;
+  border-radius: 10px;
+}
+
+.input::placeholder {
+  color: #ccc;
+  padding: 7px 15px;
+}
+
+.attention {
+  display: none;
+  color: red;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 16px;
+}
+
+.argeement {
+  padding-left: 14px;
+}
+
+.argeement_required {
+  top: -10px;
+  left: 2px;
+}
+
+.agreement_label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.agreement_checkbox {
+  width: 17px;
+  height: 17px;
+  border: 2px solid #787878;
+  border-radius: 7px;
+}
+
+.agreement_text {
+  padding-left: 5px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn {
+  padding: 18px;
+  font-size: 24px;
+  line-height: 16px;
+  color: #fff;
+  background-color: #1A226B;
+  border-radius: 10px;
+}
+

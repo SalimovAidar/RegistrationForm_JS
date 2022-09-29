@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/reset.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <main class="main">
+    <div class="container">
+      <h1 class="main-title">
+        Регистрация
+      </h1>
+      <div class="email">
+        <h2 class="email_title title">
+          Email
+        </h2>
+        <span class="email_required required">
+          *
+        </span>
+        <input type="email" value="" required placeholder="Введите email" class="email_input input">
+        <p class="email_attention attention">
+          Поле обязательно для заполнения
+        </p>
+        <p class="email_valid attention">
+          Email невалидный
+        </p>
+      </div>
+      <div class="password">
+        <h2 class="password_title title">
+          Пароль
+        </h2>
+        <span class="password_required required">
+          *
+        </span>
+        <input type="password" value="" required placeholder="Введите пароль" class="password_input input">
+        <p class="password_attention attention">
+          Поле обязательно для заполнения
+        </p>
+        <p class="password_length attention">
+          Пароль должен содержать как минимум 8 символов
+        </p>
+      </div>
+      <div class="argeement">
+        <span class="argeement_required required">
+          *
+        </span>
+        <label class="agreement_label">
+          <input type="checkbox" name="agreement" required class="agreement_checkbox">
+          <span class="agreement_text">
+            Я согласен с <a href="#" class="agreement_link">Правилами пользования приложением</a>
+          </span>
+        </label>
+        <p class="argeement_attention attention">
+          Поле обязательно для заполнения
+        </p>
+      </div>
+      <button class="btn">
+        Регистрация
+      </button>
+    </div>
+  </main>
+
+
+
+  <script src="/js/script.js"></script>
+  <!-- <script src="/js/request.js"></script> -->
+  <!-- <script src="/js/5hw_dop.js"></script> -->
+  <!-- <script src="/js/dop_script.js"></script> -->
+  <!-- <script src="/js/script1.js"></script> -->
+</body>
+
+</html>
